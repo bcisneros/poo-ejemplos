@@ -26,7 +26,6 @@ class Persona {
         System.out.println("La edad de la persona es " + persona.edad);
         System.out.println("La persona vive? " + persona.vive);
 
-
         persona.saludar();
 
         System.out.println("La edad de la persona es " + persona.edad);
