@@ -24,5 +24,17 @@ public class Main {
 
         System.out.println(nombreDeLaPersona);
 
+        // Uso del método esMayorQue
+        Persona juan = new Persona("Juan", 20);
+        Persona pedro = new Persona("Pedro", 15);
+
+        if (pedro.esMayorQue(juan)) {
+            System.out.println("Pedro es mayor que Juan");
+        } else if (juan.esMayorQue(pedro)) {
+            System.out.println("Juan es mayor que Pedro");
+        } else {
+            System.out.println("Ambos tienen la misma edad");
+        }
+
     }
 }
