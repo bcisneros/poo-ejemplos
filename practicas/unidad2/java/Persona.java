@@ -34,4 +34,10 @@ class Persona {
         return this.nombre;
     }
 
+    boolean esMayorQue(Persona otraPersona) {
+        // Utilizamos la palabra this para hacer referencia al objeto actual
+        // No es requerida a menos que el nombre de la variable o parámetro tenga
+        // conflicto con el atributo
+        return this.edad > otraPersona.edad;
+    }
 }
